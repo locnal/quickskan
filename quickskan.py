@@ -1,3 +1,4 @@
+
 import subprocess
 def port_scan():
 
@@ -10,7 +11,6 @@ def port_scan():
         print(f"Error: {e}")
 
 def dnslookup():
-
     site = input("enter site: ")
     try:
         result = subprocess.run(['nslookup', '-type=ns', site], capture_output=True, text=True )
@@ -18,12 +18,11 @@ def dnslookup():
     except Exception as e:
         print(f"Error: {e}")
 
-def allahscanner():
+def quickskan():
     option = input("""Pick an option:
                         1. Port scan
                         2. dnslookup
                         """)
-
     if option == "1":
         return port_scan()
     elif option == "2":
@@ -31,4 +30,4 @@ def allahscanner():
     else:
         print("Option not picked/chosen. Rerun script") 
 
-allahscanner()
+quickskan()
