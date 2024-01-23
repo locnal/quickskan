@@ -7,8 +7,7 @@ Requirements:
 - must know how nslookup / nmap works
 
 Uses:
-- initial recon stage
-- beginning info gathering
+- automated stage of info gather
 
 
 
