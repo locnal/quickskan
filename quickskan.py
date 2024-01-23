@@ -4,8 +4,8 @@ def port_scan():
     addr = input("enter ipv4 addr: ")
     try:
         result = subprocess.run(['nmap', '-p-', addr], capture_output=True, text=True)
-        
         return result.stdout
+        
     except Exception as e:
         print(f"Error: {e}")
 
@@ -14,6 +14,7 @@ def dnslookup():
     try:
         result = subprocess.run(['nslookup', '-type=ns', site], capture_output=True, text=True )
         return result.stdout
+        
     except Exception as e:
         print(f"Error: {e}")
 
