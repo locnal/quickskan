@@ -3,7 +3,7 @@
 Requirements:
 - nmap
 - nslookup
-- linux machine / windows terminal should be fine
+- linux machine <security based os>
 - must know how nslookup / nmap works
 - python 3 +
 
