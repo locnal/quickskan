@@ -8,7 +8,7 @@ Requirements:
 - python 3 +
 
 Uses:
-- automated stage of info gather
+- initial recon stage to find things pertaining to ip / domain names
 
 
 
