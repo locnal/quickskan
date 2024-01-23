@@ -1,6 +1,4 @@
-# allahscanner
-This is allahscanner!
-
+# quickskan
 
 Requirements:
 - nmap
