@@ -1,8 +1,15 @@
 # allahscanner
 This is allahscanner!
+Requirements:
+- nmap
+- nslookup
+- linux machine / windows terminal should be fine
+- must know how nslookup / nmap works
 
-What it is/used for:
-- scans target host via ports
-- best for security reasons
+Uses:
+- initial recon stage
+- beginning info gathering
+
+
 
 
