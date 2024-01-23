@@ -1,8 +1,12 @@
 # quickskan
 
+Updated:
+- added whois
+
 Requirements:
 - nmap
 - nslookup
+- whois
 - linux machine <security based os>
 - must know how nslookup / nmap works
 - python 3 +
