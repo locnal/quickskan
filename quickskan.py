@@ -1,11 +1,10 @@
-
 import subprocess
+
 def port_scan():
 
     site = input("enter ipv4 addr: ")
     try:
         result = subprocess.run(['nmap', '-p-', site], capture_output=True, text=True)
-        
         return result.stdout
     except Exception as e:
         print(f"Error: {e}")
@@ -28,6 +27,6 @@ def quickskan():
     elif option == "2":
         return dnslookup()
     else:
-        print("Option not picked/chosen. Rerun script") 
+        print("Option not picked/chosen. Rerun script.") 
 
 quickskan()
