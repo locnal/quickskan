@@ -1,7 +1,6 @@
 # femtocell
 import subprocess
 def port_scan():
-
     addr = input("enter ipv4 addr: ")
     try:
         result = subprocess.run(['nmap', '-p-', addr], capture_output=True, text=True)
